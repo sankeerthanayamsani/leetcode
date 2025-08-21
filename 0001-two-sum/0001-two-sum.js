@@ -1,21 +1,15 @@
 /**
- * @param {number} x
- * @return {boolean}
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
  */
-var isPalindrome = function(x) {
-    let xcopy = x;
-    if(x < 0) return false;
-    let rev = 0;
-    while (x > 0) {
-        let rem = x % 10;
-        rev = 10*rev + rem;
-        x=Math.floor(x/10);
-    }
-    if(rev === xcopy) {
-        return true;
-    }
-    else{
-        return false;
-    }
-    
+var twoSum = function(nums, target) {
+    let map = new Map();
+    for (let i= 0; i< nums.length; i++){
+        let complement = target - nums[i];
+        if(map.has(complement)) {
+         return [map.get(complement),i];   
+        } 
+        map.set(nums[i], i);   
+    }   
 };
