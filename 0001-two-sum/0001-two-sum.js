@@ -3,13 +3,18 @@
  * @param {number} target
  * @return {number[]}
  */
-var twoSum = function(nums, target) {
-    let map = new Map();
-    for (let i= 0; i< nums.length; i++){
-        let complement = target - nums[i];
-        if(map.has(complement)) {
-         return [map.get(complement),i];   
-        } 
-        map.set(nums[i], i);   
-    }   
+var twoSum = function(arr, target) {
+    let n = arr.length;
+    let map={};
+    for(let i=0;i<n;i++){
+        map[arr[i]] = i;
+    }
+    for(let i=0;i<n;i++){
+        let pairToFind = target-arr[i];
+        if(map[pairToFind] && map[pairToFind] != i){
+            return[i,map[pairToFind]];
+        }
+       
+    }
+     
 };
