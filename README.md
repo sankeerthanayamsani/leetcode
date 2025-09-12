@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0009-palindrome-number](https://github.com/sankeerthanayamsani/leetcode/tree/master/0009-palindrome-number) |
 | [0268-missing-number](https://github.com/sankeerthanayamsani/leetcode/tree/master/0268-missing-number) |
+| [3462-vowels-game-in-a-string](https://github.com/sankeerthanayamsani/leetcode/tree/master/3462-vowels-game-in-a-string) |
 ## Array
 |  |
 | ------- |
@@ -49,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/sankeerthanayamsani/leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0344-reverse-string](https://github.com/sankeerthanayamsani/leetcode/tree/master/0344-reverse-string) |
 | [0392-is-subsequence](https://github.com/sankeerthanayamsani/leetcode/tree/master/0392-is-subsequence) |
+| [3462-vowels-game-in-a-string](https://github.com/sankeerthanayamsani/leetcode/tree/master/3462-vowels-game-in-a-string) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -77,4 +79,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0160-intersection-of-two-linked-lists](https://github.com/sankeerthanayamsani/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
+## Brainteaser
+|  |
+| ------- |
+| [3462-vowels-game-in-a-string](https://github.com/sankeerthanayamsani/leetcode/tree/master/3462-vowels-game-in-a-string) |
+## Game Theory
+|  |
+| ------- |
+| [3462-vowels-game-in-a-string](https://github.com/sankeerthanayamsani/leetcode/tree/master/3462-vowels-game-in-a-string) |
 <!---LeetCode Topics End-->
